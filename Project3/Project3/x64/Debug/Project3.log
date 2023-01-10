@@ -1,0 +1,17 @@
+﻿  Source.cpp
+c:\users\mohit\source\repos\project3\project3\source.cpp(221): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Source.obj : error LNK2019: unresolved external symbol glutInit referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glutInitDisplayMode referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glutInitWindowPosition referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glutInitWindowSize referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glutMainLoop referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glutCreateWindow referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glutPostRedisplay referenced in function "void __cdecl moveSnake(int)" (?moveSnake@@YAXH@Z)
+Source.obj : error LNK2019: unresolved external symbol glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol glutReshapeWindow referenced in function "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z)
+Source.obj : error LNK2019: unresolved external symbol glutDisplayFunc referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glutReshapeFunc referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glutKeyboardFunc referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glutTimerFunc referenced in function "void __cdecl TimerFunc(int)" (?TimerFunc@@YAXH@Z)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\VS\lib\x64\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\MOHIT\source\repos\Project3\x64\Debug\Project3.exe : fatal error LNK1120: 13 unresolved externals
